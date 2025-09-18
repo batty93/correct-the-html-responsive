@@ -1,0 +1,53 @@
+@import url("reset.css");
+
+/* Add your mobile-first styles here */
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  background: #f9f9f9;
+  color: #222;
+}
+
+header, footer {
+  background: #64BCDA;
+  color: #fff;
+  text-align: center;
+  padding: 1.5rem 1rem;
+}
+
+main {
+  padding: 1.5rem 1rem;
+}
+
+.about-container {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
+.profile-pic {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 0 auto;
+  display: block;
+}
+
+@media (min-width: 700px) {
+  .about-container {
+    flex-direction: row;
+    align-items: center;
+    gap: 3rem;
+  }
+  .about-text {
+    flex: 2;
+  }
+  .about-sidebar {
+    flex: 1;
+    text-align: center;
+  }
+}
