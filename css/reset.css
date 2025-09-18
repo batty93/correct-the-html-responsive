@@ -2,7 +2,8 @@
 *,
 *::before,
 *::after {
-    box-sizing: border-box; /* Ensure consistent box-sizing for all elements */
+    box-sizing: border-box;
+    /* Ensure consistent box-sizing for all elements */
     margin: 0;
     padding: 0;
 }
@@ -21,10 +22,13 @@ a {
 
 /* Set a consistent base font size and line-height */
 html {
-    font-size: 100%; /* 16px as default, adjust as needed */
+    font-size: 100%;
+    /* 16px as default, adjust as needed */
     line-height: 1.5;
-    -webkit-text-size-adjust: 100%; /* Prevent text resizing on mobile */
-    scroll-behavior: smooth; /* Smooth scrolling */
+    -webkit-text-size-adjust: 100%;
+    /* Prevent text resizing on mobile */
+    scroll-behavior: smooth;
+    /* Smooth scrolling */
 }
 
 /* Ensure consistent appearance of media elements */
@@ -42,7 +46,8 @@ input,
 button,
 textarea,
 select {
-    font: inherit; /* Inherit font styles from body */
+    font: inherit;
+    /* Inherit font styles from body */
     border: none;
     background: none;
     outline: none;
@@ -56,14 +61,16 @@ button {
 /* Set a consistent default for body */
 body {
     min-height: 100vh;
-    text-rendering: optimizeSpeed; /* Enhance text rendering for better performance */
+    text-rendering: optimizeSpeed;
+    /* Enhance text rendering for better performance */
     line-height: 1.5;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 }
 
 /* Ensure consistent focus styles for accessibility */
 :focus-visible {
-    outline: 2px dashed #000; /* Customize to suit your design */
+    outline: 2px dashed #000;
+    /* Customize to suit your design */
 }
 
 /* Remove all animations and transitions for users who prefer reduced motion */
